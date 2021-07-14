@@ -23,6 +23,9 @@ body {
     height: 500px;
     padding-bottom: 27px;
 }
+.top-banner:hover{
+    background-color: orangered;
+}
 
 .half-width {
     width: 40%;
@@ -54,6 +57,9 @@ h1 {
     height: 44px;
     top: 464px;
     left: 156px;
+}
+.top-banner:hover .anchor-button:hover{
+    background-color: black;
 }
 
 .half-width img {
