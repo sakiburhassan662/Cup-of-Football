@@ -146,7 +146,7 @@ i.fab.fa-linkedin-in {
  footers 
  ----------------*/
 
-.football {
+.container {
     display: flex;
     flex-direction: column;
     align-items: center;
