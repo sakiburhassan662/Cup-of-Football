@@ -22,6 +22,7 @@ body {
     float: left;
     margin-left: 5%;
     padding-left: 2%;
+    margin-top: 67px;
 }
 
 h1 {
@@ -69,6 +70,7 @@ h1 {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-row-gap: 26px;
+    margin-bottom: 150px;
 }
 
 .player {
@@ -96,6 +98,50 @@ h1 {
     margin-left: 16px;
 }
 
+p {
+    font-size: 14px;
+}
+
+.footer-icon {
+    padding-bottom: 20px;
+}
+
+i.fab.fa-instagram {
+    background-color: #9d959538;
+    font-size: 20px;
+    padding: 7px;
+    border-radius: 100%;
+    margin: 2px;
+    color:#a9a6a6;
+}
+
+i.fab.fa-twitter {
+    background-color: #9d959538;
+    font-size: 20px;
+    padding: 7px;
+    border-radius: 100%;
+    margin: 2px;
+    color:#a9a6a6;
+}
+
+i.fab.fa-youtube {
+    background-color: #9d959538;
+    font-size: 20px;
+    padding: 7px;
+    border-radius: 100%;
+    margin: 2px;
+    color:#a9a6a6;
+}
+
+i.fab.fa-linkedin-in {
+    background-color: #9d959538;
+    font-size: 20px;
+    padding: 7px;
+    border-radius: 100%;
+    margin: 2px;
+    color:#a9a6a6;
+}
+
 /*--------------
  footers 
  ----------------*/
@@ -104,22 +150,58 @@ h1 {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-bottom: 63px;
 }
+
 img {
     width: 371px;
 }
 
+.copyright {
+    font-size: 17px;
+}
+/*------------------
+ Mobile Devices 
+-------------------*/
 /*------------------
  tablet devices 
  -----------------*/
- @media only screen and (max-width: 688px) {
-     .players{
-        grid-template-columns: repeat(3, 1fr);
-     }
-
- }
- @media only screen and (min-width: 688px) and (max-width: 992px) {
+@media only screen and (max-width: 688px) {
+    .top-banner{
+        width: 360px;
+        height: 695px;
+    }
+    .h1{
+        Width:278px;
+        Height:138px;
+        Top: 112px;
+        Left: 16px;
+    }
+    .anchor-button{
+        Width: 168px;
+        Height: 44px;
+        Top: 280px;
+        Left: 19px;
+        margin: 10px;
+    }
+    .half-width img{
+        width: 329px;
+        height: 259.17px;
+        left: 344px;
+        top: 374px;
+        margin-left: -209px;
+        margin-top: 388px;
+    }
     .players, .courses {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(1, 1fr);
     }
     
+
+}
+
+@media only screen and (min-width: 688px) and (max-width: 992px) {
+
+    .players,
+    .courses {
+        grid-template-columns: repeat(2, 1fr);
+    }
