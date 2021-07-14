@@ -1,10 +1,19 @@
+/*---------------
+      fonts 
+---------------*/
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/*---------------------------
+ common styles or utilities 
+ --------------------------*/
 
 body {
     margin: 0;
     font-family: 'Poppins', sans-serif;
 }
-
+/*---------------------
+ top banner styles 
+ --------------------*/
 .top-banner {
     height: 500px;
     padding-bottom: 150px;
@@ -36,13 +45,6 @@ h1 {
     margin-bottom: 70px;
 }
 
-.half-width img {
-    width: 556px;
-    height: 438px;
-    top: 153px;
-    left: 1299px;
-}
-
 .anchor-button {
     text-decoration: none;
     background: #E02C6D;
@@ -56,9 +58,17 @@ h1 {
     left: 156px;
 }
 
-/*--------------
-      comment 
----------------*/
+.half-width img {
+    width: 556px;
+    height: 438px;
+    top: 153px;
+    left: 1299px;
+}
+
+
+/*--------------------------
+ top player list styles 
+ -------------------------*/
 #container {
     width: 1000px;
     padding-right: 15px;
@@ -112,7 +122,7 @@ i.fab.fa-instagram {
     padding: 7px;
     border-radius: 100%;
     margin: 2px;
-    color:#a9a6a6;
+    color: #a9a6a6;
 }
 
 i.fab.fa-twitter {
@@ -121,7 +131,7 @@ i.fab.fa-twitter {
     padding: 7px;
     border-radius: 100%;
     margin: 2px;
-    color:#a9a6a6;
+    color: #a9a6a6;
 }
 
 i.fab.fa-youtube {
@@ -130,7 +140,7 @@ i.fab.fa-youtube {
     padding: 7px;
     border-radius: 100%;
     margin: 2px;
-    color:#a9a6a6;
+    color: #a9a6a6;
 }
 
 i.fab.fa-linkedin-in {
@@ -139,12 +149,12 @@ i.fab.fa-linkedin-in {
     padding: 7px;
     border-radius: 100%;
     margin: 2px;
-    color:#a9a6a6;
+    color: #a9a6a6;
 }
 
-/*--------------
- footers 
- ----------------*/
+/*-------------------
+       footers 
+ ------------------*/
 
 .container {
     display: flex;
@@ -160,31 +170,33 @@ img {
 .copyright {
     font-size: 17px;
 }
-/*------------------
- Mobile Devices 
--------------------*/
-/*------------------
- tablet devices 
- -----------------*/
+
+/*----------------------
+     Mobile Devices 
+-----------------------*/
+
 @media only screen and (max-width: 688px) {
-    .top-banner{
+    .top-banner {
         width: 360px;
         height: 695px;
     }
-    .h1{
-        Width:278px;
-        Height:138px;
+
+    .h1 {
+        Width: 278px;
+        Height: 138px;
         Top: 112px;
         Left: 16px;
     }
-    .anchor-button{
+
+    .anchor-button {
         Width: 168px;
         Height: 44px;
         Top: 280px;
         Left: 19px;
         margin: 10px;
     }
-    .half-width img{
+
+    .half-width img {
         width: 329px;
         height: 259.17px;
         left: 344px;
@@ -192,13 +204,16 @@ img {
         margin-left: -209px;
         margin-top: 388px;
     }
+
     .players {
         grid-template-columns: repeat(1, 1fr);
     }
-    
+
 
 }
-
+/*-----------------------
+     tablet devices 
+ -----------------------*/
 @media only screen and (min-width: 688px) and (max-width: 992px) {
 
     .players {
