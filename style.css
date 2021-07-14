@@ -192,7 +192,7 @@ img {
         margin-left: -209px;
         margin-top: 388px;
     }
-    .players, .courses {
+    .players {
         grid-template-columns: repeat(1, 1fr);
     }
     
@@ -201,7 +201,6 @@ img {
 
 @media only screen and (min-width: 688px) and (max-width: 992px) {
 
-    .players,
-    .courses {
+    .players {
         grid-template-columns: repeat(2, 1fr);
     }
